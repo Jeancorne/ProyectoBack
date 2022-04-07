@@ -1,0 +1,12 @@
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\bin\Debug\net5.0\ProyectoBack.Core.deps.json
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\bin\Debug\net5.0\ProyectoBack.Core.dll
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\bin\Debug\net5.0\ref\ProyectoBack.Core.dll
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\bin\Debug\net5.0\ProyectoBack.Core.pdb
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\obj\Debug\net5.0\ProyectoBack.Core.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\obj\Debug\net5.0\ProyectoBack.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\obj\Debug\net5.0\ProyectoBack.Core.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\obj\Debug\net5.0\ProyectoBack.Core.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\obj\Debug\net5.0\ProyectoBack.Core.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\obj\Debug\net5.0\ProyectoBack.Core.dll
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\obj\Debug\net5.0\ref\ProyectoBack.Core.dll
+C:\Users\Usuario\source\repos\ProyectoBack\ProyectoBack.Core\obj\Debug\net5.0\ProyectoBack.Core.pdb
