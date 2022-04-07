@@ -1,0 +1,242 @@
+{
+	"info": {
+		"_postman_id": "33fcb4ae-5996-4730-9493-cff6b8c0fe77",
+		"name": "ApiPrueba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "crear Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\": \"admin\",   \r\n    \"password\": \"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44316/api/v1/servicio/crear_usuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44316",
+					"path": [
+						"api",
+						"v1",
+						"servicio",
+						"crear_usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login sistema",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\": \"admin\",   \r\n    \"password\": \"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44316/api/v1/servicio/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44316",
+					"path": [
+						"api",
+						"v1",
+						"servicio",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registrar aspirante",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJUb2tlbiI6WyJhZG1pbiIsImNyZWFyU2VydmljaW8iLCJvYnRlbmVyU2VydmljaW8iLCJhY3R1YWxpemFyU2VydmljaW8iLCJlbGltaW5hclNlcnZpY2lvIl0sIm5iZiI6MTY0OTM1NjM3OCwiZXhwIjoxNjQ5MzYzNTc4LCJpYXQiOjE2NDkzNTYzNzh9.8B8w8237VbisD0IvTtku-Gr4dm5mqujGy2mSWGbIpy4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"qwwwwwwwwwww\",\r\n    \"apellido\": \"www\",\r\n    \"identificacion\": \"222\",\r\n    \"edad\": 22,\r\n    \"idCasa\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44316/api/v1/servicio/crear_aspirante",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44316",
+					"path": [
+						"api",
+						"v1",
+						"servicio",
+						"crear_aspirante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "actualizar aspirantes",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJUb2tlbiI6WyJhZG1pbiIsImNyZWFyU2VydmljaW8iLCJvYnRlbmVyU2VydmljaW8iLCJhY3R1YWxpemFyU2VydmljaW8iLCJlbGltaW5hclNlcnZpY2lvIl0sIm5iZiI6MTY0OTM1NjM3OCwiZXhwIjoxNjQ5MzYzNTc4LCJpYXQiOjE2NDkzNTYzNzh9.8B8w8237VbisD0IvTtku-Gr4dm5mqujGy2mSWGbIpy4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"uno\",\r\n    \"apellido\": \"www\",\r\n    \"identificacion\": \"222\",\r\n    \"edad\": \"22\",\r\n    \"idCasa\": 1,\r\n    \"id\": 1   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44316/api/v1/servicio/actualizar_aspirante",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44316",
+					"path": [
+						"api",
+						"v1",
+						"servicio",
+						"actualizar_aspirante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtener listado aspirantes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJUb2tlbiI6WyJhZG1pbiIsImNyZWFyU2VydmljaW8iLCJvYnRlbmVyU2VydmljaW8iLCJhY3R1YWxpemFyU2VydmljaW8iLCJlbGltaW5hclNlcnZpY2lvIl0sIm5iZiI6MTY0OTM1NjM3OCwiZXhwIjoxNjQ5MzYzNTc4LCJpYXQiOjE2NDkzNTYzNzh9.8B8w8237VbisD0IvTtku-Gr4dm5mqujGy2mSWGbIpy4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"qwwwwwwwwwww\",\r\n    \"apellido\": \"www\",\r\n    \"identificacion\": \"222\",\r\n    \"edad\": 22,\r\n    \"idCasa\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44316/api/v1/servicio/obtener_aspirantes",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44316",
+					"path": [
+						"api",
+						"v1",
+						"servicio",
+						"obtener_aspirantes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar aspirante",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJUb2tlbiI6WyJhZG1pbiIsImNyZWFyU2VydmljaW8iLCJvYnRlbmVyU2VydmljaW8iLCJhY3R1YWxpemFyU2VydmljaW8iLCJlbGltaW5hclNlcnZpY2lvIl0sIm5iZiI6MTY0OTM1NjM3OCwiZXhwIjoxNjQ5MzYzNTc4LCJpYXQiOjE2NDkzNTYzNzh9.8B8w8237VbisD0IvTtku-Gr4dm5mqujGy2mSWGbIpy4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"qwwwwwwwwwww\",\r\n    \"apellido\": \"www\",\r\n    \"identificacion\": \"222\",\r\n    \"edad\": 22,\r\n    \"idCasa\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44316/api/v1/servicio/eliminar_aspirantes/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44316",
+					"path": [
+						"api",
+						"v1",
+						"servicio",
+						"eliminar_aspirantes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
